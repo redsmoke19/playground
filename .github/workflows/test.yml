@@ -16,8 +16,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run stylelint
-      - run: npm run build
-      - run: npm run html
+      # - run: npm ci
+      # - run: npm run stylelint
+      # - run: npm run build
+      # - run: npm run html
 

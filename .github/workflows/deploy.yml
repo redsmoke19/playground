@@ -28,4 +28,4 @@ jobs:
         run: npm run build
       # Deploy
       - name: Deploy
-        run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/domains/playground.olegtsyganov.ru/html
+        run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/domains/playground.olegtsyganov.ru/html/
